@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/freetype-populate"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/1322de157ff81c22661e42845a00e236/freetype-populate.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/dbb9ca90b575492d38611f95b9f154ce/freetype-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-build.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-download.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-install.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-test.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/caf133a8bbfd455d5c1d6127312f916e/freetype-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"freetype-populate"
+		],
+		"name" : "freetype-populate"
+	}
+}

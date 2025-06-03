@@ -1,0 +1,154 @@
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Development\Final Project\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/tmp/freetype-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/tmp/freetype-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/tmp/freetype-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-PATCH.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" "-DFREETYPE_DIR=C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-src" -P "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\CAF133A8BBFD455D5C1D6127312F916E\FREETYPE-POPULATE-TEST.RULE
+setlocal
+cd "C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\DBB9CA90B575492D38611F95B9F154CE\FREETYPE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E make_directory "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/Debug/freetype-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Development\Final Project\CMake\bin\cmake.exe" -E touch "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\1322DE157FF81C22661E42845A00E236\FREETYPE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Development\Final Project\CMake\bin\cmake.exe" "-SC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild" "-BC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild" --check-stamp-file "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

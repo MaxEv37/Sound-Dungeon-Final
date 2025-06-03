@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\CMAKELISTS.TXT
+setlocal
+"C:\Development\Final Project\CMake\bin\cmake.exe" "-SC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp" "-BC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build" --check-stamp-file "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

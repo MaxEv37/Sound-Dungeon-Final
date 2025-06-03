@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\development\\final project\\technical\\projects\\sounddungeon_v0.1\\sounddungeoncpp\\wfc\\src\\wfc_main.cpp",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

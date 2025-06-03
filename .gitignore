@@ -1,0 +1,12 @@
+# IDE & Editor Settings
+.vscode
+.idea
+.vs
+
+# Build Directories
+build/
+example/build/
+out/
+
+# CMake & Cache Files
+.cache

@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/CMakeLists.txt
+  Error copying file "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/example/samples.xml" to "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build".
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "setlocal
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Development\Final Project\CMake\bin\cmake.exe" -E copy "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/example/samples.xml" "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build"
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Development\Final Project\CMake\bin\cmake.exe" -E copy_directory "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/example/samples" "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build/samples"
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Development\Final Project\CMake\bin\cmake.exe" -E make_directory "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build/results"
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 1.

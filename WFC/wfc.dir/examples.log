@@ -1,0 +1,27 @@
+﻿D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Building Custom Rule C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/CMakeLists.txt
+  CMake is re-running because C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/CMakeLists.txt'
+    is newer than 'C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.19045.
+  -- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+  -- Configuring libogg 1.3.5
+  -- Configuring vorbis 1.3.7
+  CMake Error at CMakeLists.txt:41 (target_compile_definitions):
+    Cannot specify compile definitions for target "examples" which is not built
+    by this project.
+  
+  
+  CMake Error at CMakeLists.txt:49 (target_include_directories):
+    Cannot specify include directories for target "examples" which is not built
+    by this project.
+  
+  
+  CMake Error at CMakeLists.txt:56 (add_custom_command):
+    No TARGET 'examples' has been created in this directory.
+  
+  
+  -- Configuring incomplete, errors occurred!
+D:\Microsoft\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\CMakeLists.txt' exited with code 1.

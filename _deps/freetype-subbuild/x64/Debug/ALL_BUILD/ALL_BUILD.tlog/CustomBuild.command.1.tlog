@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\FINAL PROJECT\TECHNICAL\PROJECTS\SOUNDDUNGEON_V0.1\SOUNDDUNGEONCPP\_DEPS\FREETYPE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Development\Final Project\CMake\bin\cmake.exe" "-SC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild" "-BC:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild" --check-stamp-file "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/freetype-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

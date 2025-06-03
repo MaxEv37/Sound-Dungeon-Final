@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/d318ab30f8f20109125d66b837b59659/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/4fff0b21524fd3d676bfb1b18f28c0e8/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Development/Final Project/Technical/Projects/SoundDungeon_v0.1/SoundDungeonCpp/_deps/sfml-subbuild/CMakeFiles/f2185e808715caed4e06934efe862b3e/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

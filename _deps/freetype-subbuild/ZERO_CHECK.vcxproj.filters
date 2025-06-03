@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\Final Project\Technical\Projects\SoundDungeon_v0.1\SoundDungeonCpp\_deps\freetype-subbuild\CMakeFiles\1322de157ff81c22661e42845a00e236\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{29343151-3042-3884-BEFD-F708816A9177}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
